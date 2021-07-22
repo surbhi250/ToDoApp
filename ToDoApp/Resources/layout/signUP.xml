@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+   <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+     <TextView
+     android:text="Signup"
+     android:textSize="38dp"
+     android:textAppearance="?android:attr/textAppearanceLarge"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:minWidth="25px"
+     android:minHeight="25px"
+     android:textColor="#707080"
+     android:textStyle="bold"
+     android:id="@+id/textView1"
+     android:textAlignment="center"
+     android:layout_marginTop="20dp"
+      />
+   <EditText
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Username"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signUser" />
+
+   <EditText
+        android:inputType="textPassword"
+        android:hint="Enter Password"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signPswd" />
+
+    <Button
+        android:text="Create Account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSignup" 
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+    />
+     <TextView
+     android:text="Already have an account / Login"
+     android:textSize="20dp"
+     android:textAppearance="?android:attr/textAppearanceLarge"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:minWidth="25px"
+     android:minHeight="25px"
+     android:textColor="#707080"
+     android:textStyle="bold"
+     android:id="@+id/txtLogin"
+     android:textAlignment="center"
+     android:layout_marginTop="20dp"
+      />
+ 
+</LinearLayout>
